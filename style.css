@@ -21,3 +21,41 @@
   font-weight: 300;
   font-style: italic;
 }
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.hero-wrapper {
+  background-color: #1f2937;
+  padding-inline: 100px;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.nav {
+  padding-block: 2rem;
+  width: 100wh;
+  color: aliceblue;
+}
+.nav ul {
+  display: flex;
+  align-items: baseline;
+  list-style-type: none;
+  padding: 0%;
+  margin: 0;
+  color: aliceblue;
+  gap: 0.7rem;
+  padding-inline: 1rem;
+}
+
+li {
+    font-size: 18px;
+}
+
+li.logo {
+  margin-right: auto;
+  font-size: 24px;
+}
