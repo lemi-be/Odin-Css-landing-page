@@ -28,7 +28,8 @@
 }
 .hero-wrapper {
   background-color: #1f2937;
-  padding-inline: 100px;
+  padding-inline: 120px;
+  height: 80vh;
 }
 a {
   color: aliceblue;
@@ -46,16 +47,57 @@ a {
   list-style-type: none;
   padding: 0%;
   margin: 0;
-  color: aliceblue;
+  color: #e5e7eb;
   gap: 0.7rem;
-  padding-inline: 1rem;
 }
 
 li {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 li.logo {
   margin-right: auto;
   font-size: 24px;
+  color: #f9faf8;
 }
+
+.hero {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+.text-cta {
+  color: #e5e7eb;
+  font-size: 18px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-text {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.btn {
+  background-color: #3882f6;
+  border-radius: 8px;
+  border: none;
+  padding: .5rem 2.5rem;
+  color: #e5e7eb;
+  font-size: 16px;
+
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+
