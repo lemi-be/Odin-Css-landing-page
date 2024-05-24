@@ -100,4 +100,37 @@ li.logo {
   object-fit: contain;
 }
 
+.inspiration {
+    display: flex;
+    flex-direction: column;
+
+}
+.heading {
+    font-size: 36px;
+    color: #1f2937;
+    align-self: center;
+    margin-block: 3rem;
+}
+
+.img-wrapper {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.imgs {
+    width: 250px;
+    height: 250px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.imgs img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 
