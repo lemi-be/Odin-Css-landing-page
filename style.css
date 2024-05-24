@@ -141,5 +141,32 @@ li.logo {
 }
 
 .customer-name {
-    float: right;
+  float: right;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  display: flex;
+  margin-inline: 120px;
+  padding: 2rem;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 5rem;
+  color: #e5e7eb;
+}
+.ftr-btn {
+  background-color: transparent;
+  border-radius: 8px;
+  border: solid 2px #e5e7eb;
+  padding: 0.5rem 2.5rem;
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding-block: 2rem;
 }
